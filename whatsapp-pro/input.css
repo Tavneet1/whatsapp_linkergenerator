@@ -1,0 +1,30 @@
+
+.heading{
+    text-align: center;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    font-size:xx-large;
+    margin-top: 150px;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 10px aquamarine;
+}
+
+.num{
+
+    text-decoration: solid;
+    margin: 10px;
+    text-shadow: 5px 5px 10px aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.msg{text-decoration: solid;
+    margin: 8px;
+    text-shadow: 5px 5px 10px aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head{
+    text-align: center;
+    text-shadow: 5px 5px 10px aquamarine;
+}

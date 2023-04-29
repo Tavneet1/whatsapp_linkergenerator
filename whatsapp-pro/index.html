@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp Linker</title>
+    <link rel="stylesheet" href="input.css">
+    
+</head>
+<body>
+<section>
+<h1 class="heading">Welcome To Whatsapp Project</h1>
+<form name="form_main"class="head">
+  <label for="number" class="num">Number </label>
+  <input type="text" name="number" id="number" onkeyup="handleNumberChange(event)"> <br>
+  <label for="message"class="msg">Message </label>
+  <input type="text" name="message" id="message" onkeyup="handleMsgChange(event)"> <br>
+  <p id="end_url"></p> 
+  <a id="finalOutput" href="https://wa.me/"></a>
+  <!-- <button type="button" onclick="generateLink()">linkGenerate</button> -->
+</form>
+ </section>
+
+<script src="app.js"></script>
+</body>
+</html>
